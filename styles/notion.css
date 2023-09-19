@@ -400,6 +400,14 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
+}
+
+.notion-aside-table-of-contents {
+  align-items: flex-start;
+}
+
+.notion-aside-table-of-contents-header {
+  padding-left: 6px;
 }
