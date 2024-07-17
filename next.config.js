@@ -43,6 +43,18 @@ module.exports = withBundleAnalyzer({
           }
         ],
         permanent: false
+      },
+      {
+        source: '/how-to-login',
+        destination:
+          'https://ablur.studio/faq/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=38357651&t=board',
+        has: [
+          {
+            type: 'host',
+            value: 'v2-guide.abler.world'
+          }
+        ],
+        permanent: false
       }
     ]
   }
